@@ -248,7 +248,7 @@ const HomePage = () => {
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     ></path>
                   </svg>
-                  <span className="text-white opacity-80">123 Sports Avenue, Toronto, ON, Canada</span>
+                  <span className="text-white opacity-80">513 McNicoll Ave, North York, ON, Canada</span>
                 </li>
                 <li className="flex items-start">
                   <svg
