@@ -576,7 +576,75 @@ const ArticlePage: React.FC = () => {
       category: "Mental Health",
       readTime: "8 min read",
       slug: "mental-blocks-in-sports"
-    }
+    },
+    {
+  id: 10, // Unique ID, adjust as needed
+  title: "Common Sport Injuries: Sprains",
+  author: "Miya Gao",
+  date: "May 26, 2025", // Adjust date as needed
+  content: (
+    <>
+      <p>Sprains are one of the most common injuries that athletes face, typically affecting joints such as the ankle, knee, or wrist. While they may begin as minor discomfort, inadequate rest and recovery can cause larger problems. Quick care and proper rehabilitation are key to recovery and preventing long-term issues or repeat injuries.</p>
+
+      <h2 className="text-2xl font-bold mt-6 mb-4">Causes</h2>
+      <p>A sprain is caused by overstretching or tearing a ligament, the bands of tissue that connect bones in your body. Sprains often result from sudden movements, falls, or collisions. Athletes are especially prone to ankle, knee, and wrist sprains during intense training or competition. Fatigue, poor conditioning, and inadequate warm-ups can also increase the risk. Sports that involve jumping, pivoting, or contact, such as basketball, soccer, and football, have higher rates of sprains. Understanding these causes helps athletes take steps to reduce their risk of injury.</p>
+
+      <h2 className="text-2xl font-bold mt-6 mb-4">1. Treatment</h2>
+      <p>Symptoms of a sprain include pain, swelling, bruising, and limited mobility. Proper treatment involves:</p>
+      <ul className="list-disc pl-6 mb-4">
+        <li><strong>RICE Method</strong>: Rest, Ice, Compression, and Elevation to reduce swelling and promote healing.</li>
+        <li><strong>Rehabilitation</strong>: Follow-up with exercises to restore strength and mobility.</li>
+      </ul>
+      <p>Ignoring or improperly treating sprains can lead to chronic pain, joint instability, decreased performance, and a higher risk of re-injury. Ligaments may not heal correctly without proper care, potentially resulting in long-term damage.</p>
+
+      <h2 className="text-2xl font-bold mt-6 mb-4">2. Prevention</h2>
+      <p>Preventing sprains involves proper preparation and awareness. Key strategies include:</p>
+      <ul className="list-disc pl-6 mb-4">
+        <li><strong>Adequate Strength and Flexibility Training</strong>: Boosts support in joints and improves stability.</li>
+        <li><strong>Consistent Training Schedule</strong>: Include warm-ups and cool-downs to keep muscles and ligaments flexible, reducing injury risk.</li>
+        <li><strong>Appropriate Gear</strong>: Wear proper footwear, protective gear, and use correct techniques to minimize injury risk.</li>
+        <li><strong>Maintain Good Conditioning</strong>: Avoid overtraining, as fatigue can lead to poor form and slower reaction times.</li>
+        <li><strong>Safe Playing Surfaces</strong>: Pay attention to surfaces and avoid risky movements.</li>
+      </ul>
+      <p>Education and awareness are key to staying injury-free.</p>
+
+      <h2 className="text-2xl font-bold mt-6 mb-4">Summary</h2>
+      <p>Sprains are a common athletic injury that can be prevented by practicing sufficient training schedules and techniques. They occur when ligaments are torn or stretched, often due to twists or irregular bending of joints. If a joint is sprained, the RICE method should be implemented immediately, and the athlete should rest until healed. Overexerting the joint while injured can cause larger problems overall.</p>
+
+      <h2 className="text-2xl font-bold mt-6 mb-4">References</h2>
+      <ul className="list-disc pl-6 mb-4">
+        <li>
+          Mayo Foundation for Medical Education and Research. (2022a, October 27).{" "}
+          <a href="https://www.mayoclinic.org/diseases-conditions/sprains/diagnosis-treatment/drc-20377943" target="_blank" rel="noopener noreferrer">
+            Sprains: Diagnosis & Treatment
+          </a>. Mayo Clinic.
+        </li>
+        <li>
+          Mayo Foundation for Medical Education and Research. (2022b, October 27).{" "}
+          <a href="https://www.mayoclinic.org/diseases-conditions/sprains/symptoms-causes/syc-20377938" target="_blank" rel="noopener noreferrer">
+            Sprains: Symptoms & Causes
+          </a>. Mayo Clinic.
+        </li>
+        <li>
+          Vorvick, L. J. (2023, April 27).{" "}
+          <a href="https://www.pennmedicine.org/for-patients-and-visitors/patient-information/conditions-treated-a-to-z/sprains" target="_blank" rel="noopener noreferrer">
+            Sprains
+          </a>. Pennmedicine.org.
+        </li>
+        <li>
+          Cleveland Clinic. (2025, March 19).{" "}
+          <a href="https://my.clevelandclinic.org/health/diseases/sprains#management-and-treatment" target="_blank" rel="noopener noreferrer">
+            What is a Sprain?
+          </a>. Cleveland Clinic.
+        </li>
+      </ul>
+    </>
+  ),
+  image: hurdles, 
+  category: "Injury Prevention",
+  readTime: "3 min read",
+  slug: "common-sport-injuries-sprains",
+}
   ];
 
   const article = articles.find(a => a.slug === slug);
