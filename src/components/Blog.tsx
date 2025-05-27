@@ -36,6 +36,9 @@ const Blog = () => {
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = blogPosts.slice(indexOfFirstPost, indexOfLastPost);
 
+  // Calculate total number of pages
+  const totalPages = Math.ceil(blogPosts.length / postsPerPage);
+
   const handlePageChange = (pageNumber: number) => {
     setCurrentPage(pageNumber);
   };
@@ -131,7 +134,8 @@ const Blog = () => {
                 >
                   Previous
                 </Button>
-                {[1, 2, 3].map(page => (
+                {/* {[1, 2, 3].map(page => (*/}
+                {Array.from({ length: totalPages }, (_, i) => i+1).map(page =>(
                   <Button
                     key={page}
                     className={`px-4 py-2 rounded border 
@@ -144,7 +148,7 @@ const Blog = () => {
                 <Button
                   variant="outline"
                   className="border-gray-300 text-gray-600"
-                  disabled={currentPage === 3}
+                  disabled={currentPage === totalPages}
                   onClick={() => handlePageChange(currentPage + 1)}
                 >
                   Next
