@@ -276,6 +276,16 @@ const blogPosts: BlogPost[] = [
     date: "April 21, 2025",
     slug: "mental-blocks-in-sports"
   },
+   {
+    id: 10,
+    image: hurdles,
+    category: "MENTAL HEALTH",
+    title: "Common Sport Injuries: Sprains",
+    excerpt:
+      "Many athletes face mental challenges during high-pressure moments, driven by fear of failure and judgment. This article explores common in-game anxieties and offers practical strategies—like positive self-talk, staying present, and deep breathing—to stay focused and perform with confidence.",
+    date: "April 21, 2025",
+    slug: "mental-blocks-in-sports"
+  },
 ];
 
 export default Blog;
