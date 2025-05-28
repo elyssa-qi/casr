@@ -10,6 +10,7 @@ import nut from "../designs/nutritionn.jpg"
 import burnout from "../designs/burnout.jpg"
 import studentburnout from "../designs/studentathlete.jpg"
 import hurdles from "../designs/hurdles.jpg"
+import sprains from "../designs/Sprains.jpg"
 import { useNavigate } from "react-router-dom";
 
 interface BlogPost {
@@ -282,11 +283,10 @@ const blogPosts: BlogPost[] = [
   },
    {
     id: 10,
-    image: hurdles,
+    image: sprains,
     category: "Injury Prevention",
     title: "Common Sport Injuries: Sprains",
-    excerpt:
-      "Many athletes face mental challenges during high-pressure moments, driven by fear of failure and judgment. This article explores common in-game anxieties and offers practical strategies—like positive self-talk, staying present, and deep breathing—to stay focused and perform with confidence.",
+    excerpt: "Sprains, common in sports like basketball and soccer, affect joints like the ankle or knee. Caused by overstretched ligaments, they require RICE treatment and rehab. Prevent them with training, proper gear, and warm-ups. Learn more to stay injury-free!",
     date: "April 21, 2025",
     slug: "common-sport-injuries-sprains"
   },
