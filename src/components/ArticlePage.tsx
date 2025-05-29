@@ -640,7 +640,7 @@ const ArticlePage: React.FC = () => {
       </ul>
     </>
   ),
-  image: hurdles, 
+  image: sprains, 
   category: "Injury Prevention",
   readTime: "3 min read",
   slug: "common-sport-injuries-sprains",
