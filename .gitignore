@@ -32,3 +32,10 @@ core
 
 .github/
 
+node_modules/
+public/
+.cache/
+yarn.lock
+*.log
+temp-*
+
