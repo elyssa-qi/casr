@@ -238,3 +238,20 @@ exports.createPages = async ({ actions }) => {
     });
   });
 };
+
+const path = require("path");
+const articles = require("./src/data/articles.json");
+
+exports.createPages = async ({ actions }) => {
+  const { createPage } = actions;
+
+  articles.forEach(article => {
+    createPage({
+      path: `/blog/${article.slug}`,
+      component: path.resolve(`./src/components/ArticlePage.tsx`),
+      context: {
+        slug: article.slug,
+      },
+    });
+  });
+};
